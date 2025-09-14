@@ -129,17 +129,17 @@ const Experience = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "Microsoft Certified: Career Essential in Generative AI",
+                title: "Career Essentials in Generative AI",
                 issuer: "Microsoft & LinkedIn",
                 icon: "🤖"
               },
               {
-                title: "Cisco Data Analytics Professional Certificate",
-                issuer: "Cisco",
+                title: "Data Analytics Essentials",
+                issuer: "Cisco Academy",
                 icon: "📊"
               },
               {
-                title: "Data Visualization by Tata",
+                title: "Data Visualisation: Empowering Business with Effective Insights",
                 issuer: "Tata x Forage",
                 icon: "📈"
               }
