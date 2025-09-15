@@ -132,19 +132,19 @@ const Experience = () => {
                 title: "Data Analyst Internship - Best Performer",
                 issuer: "Skill India (Ministry of MSME)",
                 icon: "🏆",
-                link: "https://drive.google.com/file/d/1nQ6Ev0utK6njEapRS2S_Ol8FLM9BV8tv/view?usp=drivesdk"
+                link: "https://drive.google.com/file/d/17-LHzKI6_zUkQ3mCDFNvFYeh-Kfx5KGh/view?usp=drivesdk"
               },
               {
                 title: "Career Essentials in Generative AI",
                 issuer: "Microsoft & LinkedIn",
                 icon: "🤖",
-                link: "https://drive.google.com/file/d/1URcwbsJXQ_rSTucd2_FSue5s_pdoJCDI/view?usp=drivesdk"
+                link: "https://drive.google.com/file/d/1nQ6Ev0utK6njEapRS2S_Ol8FLM9BV8tv/view?usp=drivesdk"
               },
               {
                 title: "Data Analytics Essentials",
                 issuer: "Cisco Academy",
                 icon: "📊",
-                link: "https://drive.google.com/file/d/17-LHzKI6_zUkQ3mCDFNvFYeh-Kfx5KGh/view?usp=drivesdk"
+                link: "https://drive.google.com/file/d/1URcwbsJXQ_rSTucd2_FSue5s_pdoJCDI/view?usp=drivesdk"
               },
               {
                 title: "Data Visualisation: Empowering Business with Effective Insights",
