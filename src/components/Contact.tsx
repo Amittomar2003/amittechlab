@@ -30,8 +30,8 @@ const Contact = () => {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/AmitTomar",
-      username: "AmitTomar"
+      href: "https://www.linkedin.com/in/amit-tomar-47583a2a7",
+      username: "amit-tomar-47583a2a7"
     },
     {
       icon: <Github className="h-5 w-5" />,

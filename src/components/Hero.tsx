@@ -54,9 +54,11 @@ const Hero = () => {
               <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 h-12 w-12">
                 <Mail className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 h-12 w-12">
-                <Linkedin className="h-5 w-5" />
-              </Button>
+              <a href="https://www.linkedin.com/in/amit-tomar-47583a2a7" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 h-12 w-12">
+                  <Linkedin className="h-5 w-5" />
+                </Button>
+              </a>
               <Button variant="ghost" size="icon" className="text-white hover:bg-white/10 h-12 w-12">
                 <Github className="h-5 w-5" />
               </Button>
