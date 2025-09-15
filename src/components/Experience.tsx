@@ -126,8 +126,13 @@ const Experience = () => {
         {/* Certificates */}
         <div className="mt-16">
           <h3 className="text-2xl font-bold mb-8 text-center">Professional Certifications</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
+              {
+                title: "Data Analyst Internship - Best Performer",
+                issuer: "Skill India (Ministry of MSME)",
+                icon: "🏆"
+              },
               {
                 title: "Career Essentials in Generative AI",
                 issuer: "Microsoft & LinkedIn",
