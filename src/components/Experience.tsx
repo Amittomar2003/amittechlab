@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Award, MapPin } from "lucide-react";
+import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
 
 const Experience = () => {
   return (
@@ -131,28 +131,40 @@ const Experience = () => {
               {
                 title: "Data Analyst Internship - Best Performer",
                 issuer: "Skill India (Ministry of MSME)",
-                icon: "🏆"
+                icon: "🏆",
+                link: "#" // Add your certificate verification link here
               },
               {
                 title: "Career Essentials in Generative AI",
                 issuer: "Microsoft & LinkedIn",
-                icon: "🤖"
+                icon: "🤖",
+                link: "#" // Add your certificate verification link here
               },
               {
                 title: "Data Analytics Essentials",
                 issuer: "Cisco Academy",
-                icon: "📊"
+                icon: "📊",
+                link: "#" // Add your certificate verification link here
               },
               {
                 title: "Data Visualisation: Empowering Business with Effective Insights",
                 issuer: "Tata x Forage",
-                icon: "📈"
+                icon: "📈",
+                link: "#" // Add your certificate verification link here
               }
             ].map((cert, index) => (
-              <Card key={cert.title} className="bg-gradient-card border-0 shadow-lg hover:shadow-xl transition-all duration-300 text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                <CardHeader>
+              <Card 
+                key={cert.title} 
+                className="bg-gradient-card border-0 shadow-lg hover:shadow-xl transition-all duration-300 text-center animate-fade-in cursor-pointer group" 
+                style={{ animationDelay: `${index * 0.1}s` }}
+                onClick={() => window.open(cert.link, '_blank')}
+              >
+                <CardHeader className="relative">
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <ExternalLink className="h-4 w-4 text-primary" />
+                  </div>
                   <div className="text-4xl mb-2">{cert.icon}</div>
-                  <CardTitle className="text-lg leading-tight">{cert.title}</CardTitle>
+                  <CardTitle className="text-lg leading-tight group-hover:text-primary transition-colors">{cert.title}</CardTitle>
                   <CardDescription className="font-medium">{cert.issuer}</CardDescription>
                 </CardHeader>
               </Card>
