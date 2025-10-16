@@ -16,7 +16,9 @@ const Projects = () => {
         "Processed multi-source data using advanced SQL queries",
         "Created interactive dashboards for stakeholder insights",
         "Identified peak cancellation patterns and root causes"
-      ]
+      ],
+      link: "#", // Add your OLA dashboard link here
+      github: "#"
     },
     {
       title: "Hospital Performance Tracker",
@@ -29,7 +31,9 @@ const Projects = () => {
         "Extracted and transformed data from multiple sources",
         "Built real-time KPI monitoring system",
         "Enabled drill-down analytics for detailed insights"
-      ]
+      ],
+      link: "https://app.powerbi.com/links/Df2tQioFdx?ctid=4fd60770-0a1d-4047-b029-26a2cc4b34e2&pbi_source=linkShare",
+      github: "#"
     }
   ];
 
@@ -103,13 +107,26 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3 pt-4">
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Details
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="flex-1"
+                    asChild
+                  >
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Dashboard
+                    </a>
                   </Button>
-                  <Button variant="ghost" size="sm">
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
+                  <Button 
+                    variant="ghost" 
+                    size="sm"
+                    asChild
+                  >
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </CardContent>
