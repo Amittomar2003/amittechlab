@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
-import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   return (
@@ -18,14 +17,6 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
-            <div className="mb-6">
-              <img 
-                src={profilePhoto}
-                alt="Amit Tomar - Data Analyst" 
-                className="w-32 h-32 rounded-full mx-auto lg:mx-0 shadow-xl border-4 border-white/20 animate-float"
-              />
-            </div>
-            
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">
               Hi, I'm <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">Amit Tomar</span>
             </h1>
