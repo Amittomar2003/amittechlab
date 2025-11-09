@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
 import mitsSepCert from "@/assets/cert-mits-sep.png";
+import graphicDesignCert from "@/assets/cert-graphic-design.png";
 
 const Experience = () => {
   return (
@@ -159,6 +160,13 @@ const Experience = () => {
                 icon: "💻",
                 link: mitsSepCert,
                 description: "Communication Skills, General Aptitude & Competitive Coding (Grade B+)"
+              },
+              {
+                title: "Graphic Design Summer Internship",
+                issuer: "MITS, Gwalior",
+                icon: "🎨",
+                link: graphicDesignCert,
+                description: "Grade A (June 2023)"
               }
             ].map((cert, index) => (
               <Card 
