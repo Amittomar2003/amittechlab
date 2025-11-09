@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
+import mitsSepCert from "@/assets/cert-mits-sep.png";
 
 const Experience = () => {
   return (
@@ -156,7 +157,7 @@ const Experience = () => {
                 title: "Skill Enhancement Program (SEP)",
                 issuer: "MITS-DU, Gwalior",
                 icon: "💻",
-                link: "#",
+                link: mitsSepCert,
                 description: "Communication Skills, General Aptitude & Competitive Coding (Grade B+)"
               }
             ].map((cert, index) => (
