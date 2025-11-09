@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
 import mitsSepCert from "@/assets/cert-mits-sep.png";
 import graphicDesignCert from "@/assets/cert-graphic-design.png";
+import cricketCert from "@/assets/cert-cricket.jpg";
 
 const Experience = () => {
   return (
@@ -167,6 +168,13 @@ const Experience = () => {
                 icon: "🎨",
                 link: graphicDesignCert,
                 description: "Grade A (June 2023)"
+              },
+              {
+                title: "Cricket Tournament - Runners Up",
+                issuer: "MITS, Gwalior",
+                icon: "🏏",
+                link: cricketCert,
+                description: "Intra Mural Cricket Tournament (June 2023)"
               }
             ].map((cert, index) => (
               <Card 
