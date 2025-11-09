@@ -151,6 +151,13 @@ const Experience = () => {
                 issuer: "Tata x Forage",
                 icon: "📈",
                 link: "https://drive.google.com/file/d/1VJR4Tsy2yYJxergpLnx1jjLy-09oskdA/view?usp=drivesdk"
+              },
+              {
+                title: "Skill Enhancement Program (SEP)",
+                issuer: "MITS-DU, Gwalior",
+                icon: "💻",
+                link: "#",
+                description: "Communication Skills, General Aptitude & Competitive Coding (Grade B+)"
               }
             ].map((cert, index) => (
               <Card 
