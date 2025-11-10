@@ -52,17 +52,19 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <Button 
-              size="sm" 
-              className={`${
-                isScrolled 
-                  ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
-                  : 'bg-white text-primary hover:bg-white/90'
-              } transition-colors`}
-            >
-              <Download className="mr-2 h-4 w-4" />
-              Resume
-            </Button>
+            <a href="/Amit_Resume.pdf" download="Amit_Tomar_Resume.pdf">
+              <Button 
+                size="sm" 
+                className={`${
+                  isScrolled 
+                    ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+                    : 'bg-white text-primary hover:bg-white/90'
+                } transition-colors`}
+              >
+                <Download className="mr-2 h-4 w-4" />
+                Resume
+              </Button>
+            </a>
           </div>
           
           {/* Mobile Menu Button */}
@@ -90,10 +92,12 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <Button size="sm" className="w-full mt-4">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+              <a href="/Amit_Resume.pdf" download="Amit_Tomar_Resume.pdf" className="block">
+                <Button size="sm" className="w-full mt-4">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Resume
+                </Button>
+              </a>
             </div>
           </div>
         )}

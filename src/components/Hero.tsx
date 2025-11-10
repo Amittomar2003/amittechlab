@@ -35,10 +35,12 @@ const Hero = () => {
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+              <a href="/Amit_Resume.pdf" download="Amit_Tomar_Resume.pdf">
+                <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Resume
+                </Button>
+              </a>
             </div>
             
             <div className="flex gap-4 justify-center lg:justify-start">
