@@ -17,7 +17,7 @@ const Projects = () => {
         "Created interactive dashboards for stakeholder insights",
         "Identified peak cancellation patterns and root causes"
       ],
-      link: "#", // Add your OLA dashboard link here
+      link: "https://app.powerbi.com/groups/me/reports/35565868-1ebd-42a9-b36d-91bb46f35b7e?experience=power-bi",
       github: "#"
     },
     {
