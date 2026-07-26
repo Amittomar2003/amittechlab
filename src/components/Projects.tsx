@@ -131,7 +131,7 @@ const Projects = () => {
                   >
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      View Dashboard
+                      {project.link === project.github ? "View Project" : "View Dashboard"}
                     </a>
                   </Button>
                   <Button 
