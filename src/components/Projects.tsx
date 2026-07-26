@@ -34,8 +34,24 @@ const Projects = () => {
       ],
       link: "https://app.powerbi.com/links/Df2tQioFdx?ctid=4fd60770-0a1d-4047-b029-26a2cc4b34e2&pbi_source=linkShare",
       github: "#"
+    },
+    {
+      title: "Customer Shopping Behavior Analysis",
+      description: "End-to-end analytics workflow turning raw customer data into strategic business intelligence — from cleaning and modeling in Python to SQL analysis and an interactive Power BI dashboard.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop&crop=center",
+      impact: "Full end-to-end analytics pipeline",
+      technologies: ["Python", "SQL", "Power BI", "EDA", "Data Modeling"],
+      icon: <ShoppingBag className="h-6 w-6" />,
+      results: [
+        "Cleaned, transformed and explored the raw dataset in Python",
+        "Ran SQL queries on customer segments, loyalty and purchase drivers",
+        "Built an interactive Power BI dashboard highlighting key trends"
+      ],
+      link: "https://github.com/Amittomar2003/Customer-trend-analysis",
+      github: "https://github.com/Amittomar2003/Customer-trend-analysis"
     }
   ];
+
 
   return (
     <section className="py-20 bg-background">
