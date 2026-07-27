@@ -1,5 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
 import mitsSepCert from "@/assets/cert-mits-sep.png";
 import graphicDesignCert from "@/assets/cert-graphic-design.png";
