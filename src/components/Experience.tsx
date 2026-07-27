@@ -58,10 +58,6 @@ const Experience = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>Recognized as Best Performer among all participants</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                     <span>Applied data analysis techniques to real-world business scenarios</span>
                   </li>
                 </ul>
