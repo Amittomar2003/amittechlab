@@ -34,9 +34,6 @@ const Experience = () => {
                       Elevate Labs (Skill India - Ministry of MSME)
                     </CardDescription>
                   </div>
-                  <Badge className="bg-success/10 text-success hover:bg-success/20 whitespace-nowrap">
-                    Best Performer
-                  </Badge>
                 </div>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mt-2">
                   <div className="flex items-center gap-1">
