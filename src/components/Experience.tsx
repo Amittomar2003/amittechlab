@@ -1,5 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
 import mitsSepCert from "@/assets/cert-mits-sep.png";
 import graphicDesignCert from "@/assets/cert-graphic-design.png";
@@ -34,9 +33,6 @@ const Experience = () => {
                       Elevate Labs (Skill India - Ministry of MSME)
                     </CardDescription>
                   </div>
-                  <Badge className="bg-success/10 text-success hover:bg-success/20 whitespace-nowrap">
-                    Best Performer
-                  </Badge>
                 </div>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mt-2">
                   <div className="flex items-center gap-1">
@@ -58,10 +54,6 @@ const Experience = () => {
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                     <span>Demonstrated strong analytical thinking and problem-solving skills</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>Recognized as Best Performer among all participants</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
