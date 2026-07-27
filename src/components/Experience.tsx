@@ -4,6 +4,7 @@ import { Calendar, Award, MapPin, ExternalLink } from "lucide-react";
 import mitsSepCert from "@/assets/cert-mits-sep.png";
 import graphicDesignCert from "@/assets/cert-graphic-design.png";
 import cricketCert from "@/assets/cert-cricket.jpg";
+import elevateLabsCert from "@/assets/cert-elevate-labs-internship.jpeg.asset.json";
 
 const Experience = () => {
   return (
@@ -132,10 +133,10 @@ const Experience = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                title: "Data Analyst Internship - Best Performer",
-                issuer: "Skill India (Ministry of MSME)",
+                title: "Data Analyst Internship - Certificate of Completion",
+                issuer: "Elevate Labs (Skill India - Ministry of MSME)",
                 icon: "🏆",
-                link: "https://drive.google.com/file/d/17-LHzKI6_zUkQ3mCDFNvFYeh-Kfx5KGh/view?usp=drivesdk"
+                link: elevateLabsCert.url
               },
               {
                 title: "Career Essentials in Generative AI",
