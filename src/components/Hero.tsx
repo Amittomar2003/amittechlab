@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <a href="/Amit_Resume.pdf" download="Amit_Tomar_Resume.pdf">
+              <a href={resumeAsset.url} download="Amit_Tomar_Resume.pdf">
                 <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume

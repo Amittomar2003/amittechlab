@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Download } from "lucide-react";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +53,7 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <a href="/Amit_Resume.pdf" download="Amit_Tomar_Resume.pdf">
+            <a href={resumeAsset.url} download="Amit_Tomar_Resume.pdf">
               <Button 
                 size="sm" 
                 className={`${
@@ -92,7 +93,7 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <a href="/Amit_Resume.pdf" download="Amit_Tomar_Resume.pdf" className="block">
+              <a href={resumeAsset.url} download="Amit_Tomar_Resume.pdf" className="block">
                 <Button size="sm" className="w-full mt-4">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
