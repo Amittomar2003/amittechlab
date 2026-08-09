@@ -4,6 +4,8 @@ import mitsSepCert from "@/assets/cert-mits-sep.png";
 import graphicDesignCert from "@/assets/cert-graphic-design.png";
 import cricketCert from "@/assets/cert-cricket.jpg";
 import elevateLabsCert from "@/assets/cert-elevate-labs-internship.jpeg.asset.json";
+import aincatCert from "@/assets/cert-aincat-2026.pdf.asset.json";
+import quizOffCert from "@/assets/cert-quizoff-2026.png.asset.json";
 
 const Experience = () => {
   return (
