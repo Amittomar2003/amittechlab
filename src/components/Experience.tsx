@@ -170,6 +170,18 @@ const Experience = () => {
                 icon: "🏏",
                 link: cricketCert,
                 description: "Intra Mural Cricket Tournament (June 2023)"
+              },
+              {
+                title: "AINCAT 2026 - India's Biggest Career Aptitude Test",
+                issuer: "Naukri Campus",
+                icon: "📝",
+                link: aincatCert.url
+              },
+              {
+                title: "QuizOff 2026 - India's Biggest AI Quiz",
+                issuer: "CampusCrew (hosted on Unstop)",
+                icon: "🤖",
+                link: quizOffCert.url
               }
             ].map((cert, index) => (
               <Card 
