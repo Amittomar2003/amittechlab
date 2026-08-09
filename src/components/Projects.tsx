@@ -151,9 +151,11 @@ const Projects = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="group">
-            View All Projects
-            <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          <Button size="lg" variant="outline" className="group" asChild>
+            <a href="https://github.com/Amittomar2003" target="_blank" rel="noopener noreferrer">
+              View All Projects
+              <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
         </div>
       </div>
